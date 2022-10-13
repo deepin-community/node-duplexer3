@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	perl -i -pe 's/duplexer3/duplexer2/' debian/node-duplexer3/usr/share/nodejs/duplexer2/package.json

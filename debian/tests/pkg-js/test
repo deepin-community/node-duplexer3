@@ -1,0 +1,6 @@
+set -e
+set -x
+if test "$AUTOPKGTEST_TMP" != ""; then
+	node -e 'require("duplexer2")'
+fi
+mocha

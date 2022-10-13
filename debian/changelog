@@ -1,0 +1,57 @@
+node-duplexer3 (0.1.4-6) unstable; urgency=medium
+
+  * Team upload
+  * MA: foreign
+  * Fix watch
+  * Remove depends on nodejs
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 04 Oct 2021 14:51:40 +0000
+
+node-duplexer3 (0.1.4-5) unstable; urgency=medium
+
+  * Fix duplexer2 install (Closes: #931712)
+  * Use pkg-js-tools auto test & install
+  * Declare compliance with policy 4.5.0
+  * Add Rules-Requires-Root: no
+  * Add debian/gbp.conf
+  * Update metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 17 Feb 2020 15:21:53 +0100
+
+node-duplexer3 (0.1.4-4) unstable; urgency=medium
+
+  * Remove dh-buildinfo from build dependencies
+  * Remove mocha test from autopkgtest: it doesn't test installed files
+  * Add myself to uploaders
+  * Modify patch to disable failing tests. Fixes debci and autopkgtest
+  * Add Multi-Arch: foreign
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 18 Jan 2019 10:57:08 +0100
+
+node-duplexer3 (0.1.4-3) unstable; urgency=medium
+
+  * Team upload
+  * Add debian/control fields and link to replace node-duplexer2
+  * Update debian/copyright format link
+  * Add patch to fix bad test (Closes: #918670)
+  * Fix license
+  * Declare compliance with policy 4.3.0
+  * Bump debhelper compatibility level to 12
+  * Ignore test if DEB_BUILD_OPTIONS includes "nocheck"
+  * Set minimal nodejs version to 10
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 09 Jan 2019 20:50:56 +0100
+
+node-duplexer3 (0.1.4-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 11 Dec 2017 19:03:15 +0530
+
+node-duplexer3 (0.1.4-1) experimental; urgency=low
+
+  * Initial release (Closes: #852778)
+
+ -- Tushar Agey <agey.tushar3@gmail.com>  Fri, 27 Jan 2017 07:16:24 +0000
